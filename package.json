@@ -1,0 +1,42 @@
+{
+  "name": "realmforge",
+  "version": "1.0.0",
+  "description": "A World Planning Program for DM's",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "pack": "electron-webpack",
+    "pack-build": "electron-webpack && electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrVintage710/RealmForge.git"
+  },
+  "keywords": [
+    "D&D",
+    "DM",
+    "World",
+    "Building"
+  ],
+  "author": "Brooks Palin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MrVintage710/RealmForge/issues"
+  },
+  "homepage": "https://github.com/MrVintage710/RealmForge#readme",
+  "devDependencies": {
+    "electron": "^7.1.10",
+    "electron-webpack": "^2.7.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "electron-builder": "^22.2.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  }
+}
