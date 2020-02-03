@@ -26,17 +26,19 @@
   "homepage": "https://github.com/MrVintage710/RealmForge#readme",
   "devDependencies": {
     "electron": "^7.1.10",
+    "electron-builder": "^22.2.0",
     "electron-webpack": "^2.7.4",
+    "file-loader": "^5.0.2",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
     "vue": "^2.6.11",
     "vue-loader": "^15.8.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.41.5",
-    "electron-builder": "^22.2.0"
+    "webpack": "^4.41.5"
   },
   "dependencies": {
+    "babylonjs": "^4.0.3",
     "source-map-support": "^0.5.16"
   }
 }

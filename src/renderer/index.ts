@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import TestComp from './components/test.vue'
+import LoginPage from './components/LoginPage.vue'
 
 new Vue({
     el: '#app',
     render(h) {
-        return h(TestComp)
+        return h(LoginPage)
     }
 })

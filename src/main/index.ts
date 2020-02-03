@@ -8,6 +8,9 @@ console.log(`http://localhost:${process.env.ELECTRON_WEBPACK_WDS_PORT}/`)
 
 app.on('ready', () => {
     var window = new BrowserWindow({
+        width: 800,
+        height: 600,
+        frame: false,
         webPreferences: {
             nodeIntegration: true
         }
