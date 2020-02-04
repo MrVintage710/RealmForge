@@ -26,6 +26,7 @@
         width: 100vw;
         height: 100vh;
 
-        background-image: url("../assets/parchment-seamless.jpg")
+        background-image: url("../assets/noisy-grid.png");
+        background-color: black
     }
 </style>

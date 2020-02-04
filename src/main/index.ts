@@ -4,13 +4,11 @@ import {format as formatUrl} from 'url'
 
 const isDev = process.env.NODE_ENV !== 'production'
 
-console.log(`http://localhost:${process.env.ELECTRON_WEBPACK_WDS_PORT}/`)
-
 app.on('ready', () => {
     var window = new BrowserWindow({
         width: 800,
         height: 600,
-        frame: false,
+        // frame: false,
         webPreferences: {
             nodeIntegration: true
         }
