@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-import Page from './components/PAge.vue';
+import Page from './components/Page.vue';
 
 new Vue({
     el: '#app',
